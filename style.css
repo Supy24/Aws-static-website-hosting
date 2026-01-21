@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fffaf5;
+    color: #333;
+}
+
+/* NAVBAR */
+header {
+    background: #5c2c1d;
+    padding: 15px 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 26px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+                url("images/hero.jpg") center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+}
+
+.hero-text h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background: #e6a756;
+    padding: 12px 25px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+/* ABOUT */
+.about {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* MENU */
+.menu {
+    background: #fff0e6;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+}
+
+/* CONTACT */
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+    background: #5c2c1d;
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    background: #3d1b10;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
