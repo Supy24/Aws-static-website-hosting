@@ -4,7 +4,8 @@ Static website hosting on AWS S3 – cloud fundamentals project
 Live Website:
 http://supriya-portfolio-site-123.s3-website.ap-south-1.amazonaws.com/
 
-Project: Static Website Hosting on AWS (Amazon S3)
+**Project: Static Website Hosting on AWS (Amazon S3)**
+
 📌 Overview
 
 This project demonstrates how to host a static website on AWS using Amazon S3. The solution provides a low-cost, scalable way to deploy web content without managing servers.
